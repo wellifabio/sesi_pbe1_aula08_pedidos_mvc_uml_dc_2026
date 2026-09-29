@@ -1,6 +1,6 @@
 # Novo Backend Node.js MVC
 ## Passo a passo para iniciar um novo Projeto BackEnd
-- 1 Criar uma **pasta**em sua Área de tabalho e abrir com o **VsCode**
+- 1 Criar uma **pasta** em sua Área de tabalho e abrir com o **VsCode**
 - 2 Criar um arquivo `server.js` contendo:
 ```js
 const express = require("express")
