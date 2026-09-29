@@ -15,8 +15,8 @@ const listar = (req, res) => {
     subotais()
     res.json(pedidos)
 }
-const alterar = (req, res) => { }
-const excluir = (req, res) => { }
+const alterar = (req, res) => { res.json("Em construção") }
+const excluir = (req, res) => { res.json("Em construção") }
 
 module.exports = {
     criar, listar, alterar, excluir
