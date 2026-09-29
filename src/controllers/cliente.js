@@ -9,8 +9,8 @@ const criar = (req, res) => {
 const listar = (req, res) => {
     res.json(clientes)
 }
-const alterar = (req, res) => { }
-const excluir = (req, res) => { }
+const alterar = (req, res) => { res.json("Em construção") }
+const excluir = (req, res) => { res.json("Em construção") }
 
 module.exports = {
     criar, listar, alterar, excluir
